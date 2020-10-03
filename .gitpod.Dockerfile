@@ -1,5 +1,4 @@
 FROM gitpod/workspace-full:latest
-FROM jupyter/scipy-notebook:latest
 
 
 # Install custom tools, runtimes, etc.
