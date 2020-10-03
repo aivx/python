@@ -1,4 +1,6 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:latest
+FROM jupyter/scipy-notebook:latest
+
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:

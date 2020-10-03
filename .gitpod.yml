@@ -1,6 +1,10 @@
 image:
   file: .gitpod.Dockerfile
 
+tasks:
+  - init: pip3 install -r requirements.txt
+    command: python3 src/app.py
+
 vscode:
   extensions:
     - almenon.arepl@1.0.20:Uu7lIOwyLgmNWpTwCl/iqQ==
